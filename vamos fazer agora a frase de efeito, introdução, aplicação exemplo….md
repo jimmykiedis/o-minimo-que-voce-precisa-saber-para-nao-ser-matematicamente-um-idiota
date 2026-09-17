@@ -1,0 +1,3 @@
+# vamos fazer agora a frase de efeito, introdução, aplicação exemplo…
+
+vamos fazer agora a frase de efeito, introdução, aplicação exemplo lógico+prático (de preferencia quem sejam o mesmo exemplo falando do problema lógico, e a resolução na pratica) e fechando com aplicações na matemática sobre:
