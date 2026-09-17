@@ -136,16 +136,14 @@ If a comparison, joke, or emoji is removed, the mathematical explanation should 
 To clone the project locally, use:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/jimmykiedis/o-minimo-que-voce-precisa-saber-para-nao-ser-matematicamente-um-idiota.git
 ```
 
 Then, access the folder:
 
 ```bash
-cd "Calculus I/The Bare Minimum You Need to Know to Not Be Mathematically an Idiot"
+cd "Calculus I/O mínimo que você precisa saber para não ser matematicamente um idiota"
 ```
-
-> 💡 **Tip:** replace `<repository-url>` with your GitHub repository's actual URL.
 
 ---
 
