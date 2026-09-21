@@ -12,7 +12,7 @@
 		lim<sub>𝑥→7</sub>x<sup>2</sup> = 49
 	Mesmo que você não calcule diretamente 7<sup>2</sup>, basta ver que conforme x schega perto de 7, a função chega perto 49.
 
-# ↔️ Aproximação pela esquerda e pela direita
+## ↔️ Aproximação pela esquerda e pela direita
 	Para garantir que o limite existe, precisamos olhar de dois lados:
 		* Valores menores que 7 (6,9; 6,99; 6,999…)
 		* Valores maiores que 7 (7,1; 7,01; 7,001…)
@@ -26,7 +26,7 @@
 		* Pela direita explode para +**∞.**
 		→Significa que o limite bilateral não existe.
 
-# 🌉 Metáforas para entender limites
+## 🌉 Metáforas para entender limites
 	Para compreender os possíveis comportamentos de um limite, vamos utilizar quatro metáforas. Imagine uma ponte atravessando um grande rio. Conforme caminhamos em direção a um ponto específico dessa ponte, podemos encontrar diferentes situações. Cada uma delas representa um resultado possível para o comportamento de uma função.
 		1. 🌉 **Ponte nova (contínua):**
 			A ponte está completamente intacta. Você consegue caminhar normalmente pela esquerda e pela direita, chegando exatamente ao mesmo ponto, sem precisar parar ou desviar. O que isso significa?
