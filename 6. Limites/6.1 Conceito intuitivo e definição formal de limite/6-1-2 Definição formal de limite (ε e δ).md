@@ -255,15 +255,3 @@
 	Como frase lógica:
 		0 < |𝑥 - a| < 𝛿 ⇒ |𝑓(𝑥) - L| < 𝜀
 	🧠 **Traduzindo:** “Eu aproximo 𝑥 de a usando o 𝛿, e isso garante que 𝑓(𝑥) fique próxima de L dentro da margem 𝜀.”
-
-
-
-
-
-
-
-
-
-
-
-
