@@ -4,7 +4,7 @@
 Se a Regra da Constante foi o tutorial, a Regra da Potência é a primeira fase de verdade: os controles continuam os mesmos, mas agora o jogo começa a ficar interessante. 🎮🔥
 ```
 
-# 🔹 O que é uma potência?
+# 🎯 O que é uma potência?
 
 Se você já esqueceu dos primeiro capítulos, lá quando agente aprendeu "1.3 Operações Fundamentais", uma potência é uma forma abreviada de representar uma multiplicação repetitiva:
 
