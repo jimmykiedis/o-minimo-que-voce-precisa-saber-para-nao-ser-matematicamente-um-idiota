@@ -20,7 +20,7 @@ A resposta parece intuitiva: Basta descobrir quanto cada uma das partes está co
 
 # 🧠 Exemplo lógico
 
-você abre as estatisticas do seu perfil e percebe que os dois estão recebendo um maçante número de vizualizações ao mesmo tempo. O video mais recente está recebendo cerca de $5.000$ vizualizações por hora, e o segundo $2.000$. Então surge uma pergunta uma pergunta mais específica:
+Você abre as estatisticas do seu perfil e percebe que os dois estão recebendo um maçante número de vizualizações ao mesmo tempo. O video mais recente está recebendo cerca de $5.000$ vizualizações por hora, e o segundo $2.000$. Então surge uma pergunta uma pergunta mais específica:
 
 > "Quantas visualizações meu perfil perfil está ganhando por hora no total?"
 

@@ -11,59 +11,37 @@ Vamos imaginar que você queira descobrir ingormações como:
 
 > "Quantos visualizações eu tenho pra cada seguidor?"
 
-Suponhamos então que você queira saber quantas vezes a quantidade de visualizações é maior do que a quantidade de seguidores. Neste caso, não basta saber quantas visualizações você tem, também precisamos saber **quantos segudores você tem**.
-
-Por exemplo, se seu perfil possui $10.000$ visualizações e $1.000$ seguidores, podemos dividir:
-
-$$
-\boxed{\frac{10.000}{1.000}=10}
-$$
-
-Isso significa que temos, em média, **10 vezes mais vizualizações que a quantidade de segudores**
-
-A divisão está mostrando uma relação entre duas quantidades. Agora imagine que tanto o número de visualizações quanto o número de seguidores esteja mudando com o tempo. A pergunta passa a ser:
-
-> "Como essa relação está mudando?"
-
-É justamente aí que entra a *Regra do Quociente**.
-
 # 🧠 Exemplo lógico
 
-**Voltando ao seu vídeo viral** 🎥🔥
+Imagine que você tenha um perfil em uma rede social.
 
-Depois de 1 ou 2 dias, ele já acumulou:
+Você pode observar duas coisas:
 
-- 👀 $199.000$ **novas visualizações**;
-- 👁️​ $1.000$ **visualizações dos vídeos anteriores**;
-- 👤 $18.000$ **novos segudores**.
-- 👥​ $2.000$ **antigos seguidores**.
+* quantas **pessoas assistiram aos seus vídeos**;
+* quantas **pessoas começaram a seguir você**.
 
-Você quer saber a relação entre essas duas quantidades. Então divide:
+Agora imagine que o seu perfil continue crescendo.
 
-$$
-\boxed{\frac{199.000+1.000}{18.000+2.000} = 10}
-$$
+Com o passar do tempo, podem acontecer duas coisas ao mesmo tempo: **o número de visualizações aumenta e o número de seguidores também aumenta**.
 
-Ou seja:
+Então podemos fazer uma pergunta:
 
-> "Existem, 10 visualizações para cada seguidor que você tem no perfil."
+> **“A relação entre visualizações e seguidores está mudando com o tempo?”**
 
-Agora imagine que o vídeo continue crescendo. Depois de 5 dias, ele chega:
+Por exemplo, talvez no começo você tivesse muitas visualizações em relação ao número de seguidores. Depois, seu perfil pode começar a ganhar seguidores mais rapidamente — ou pode acontecer o contrário.
 
-- 👀 $250.000$ **novas visualizações**;
-- 👁️​ $50.000$ **visualizações dos vídeos anteriores**;
-- 👤 $23.000$ **novos segudores**.
-- 👥​ $2.000$ **antigos seguidores**.
+Ou seja, não estamos interessados apenas em saber **quantas visualizações e quantos seguidores existem**.
 
-A relação agora é:
+Queremos saber **como a relação entre essas duas quantidades está mudando**.
 
-$$
-\boxed{\frac{250.000+50.000}{23.000+2.000} = 12}
-$$
+É aqui que entra a **Regra do Quociente**.
 
-A relaçõa mudou. Antes eram **10 visualizações por seguidor** agora são **12 visualizações por seguidor**.
+Ela é usada quando temos uma quantidade que depende da **divisão entre duas outras quantidades** e queremos descobrir **como essa relação muda**.
 
-Perceba que estamos acompanhando uma quantidade que é formada pela divisão de duas outras quantidades. E quando essas quantidades mudam com o tempo, podemos usar derivadas para descobrir como essas relação está mudando.
+> 💡 **Ideia principal:**
+> **Duas quantidades estão mudando → existe uma relação entre elas → queremos saber como essa relação está mudando.**
+
+No **Exemplo Prático**, aí sim podemos colocar os números, fazer as divisões e mostrar como a Regra do Quociente funciona.
 
 ## ➗ E é exatamente isso que a Regra do Quociente faz
 
@@ -104,11 +82,15 @@ $$
 f(t)=199.000t+1.000
 $$
 
+**obs.: 1.000 você já tinha contando todos os demais vídeos antigos*
+
 E o número de seguidores seja representado por:
 
 $$
 g(t)=18.000t+2.000
 $$
+
+**obs.: 2.000 são seus seguidores que você tinha antes do seu vídeo viralizar*
 
 A relação entre visualizações e seguidores é:
 
