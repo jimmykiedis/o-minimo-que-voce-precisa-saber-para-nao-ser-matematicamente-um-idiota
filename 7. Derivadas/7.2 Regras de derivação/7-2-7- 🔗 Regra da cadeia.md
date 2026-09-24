@@ -105,54 +105,68 @@ $$
 
 Agora queremos descobrir a derivada dessa função.
 
-### 🛠️ Roteiro prático da Regra da Cadeia
+### 📘 Roteiro prático da Regra da Cadeia
 
-Quando encontrar uma função dentro de outra, siga sempre este roteiro:
+Para encontrarmos o derivada de $f(x)=(2x+1)^3$ temos primeiro que indentifica a função que está dentro da outra, e para isso podemos seguir um simples roteiro:
 
-1. 🔗 Monte uma tabela de 4 posições para adicionar os valores que vamos precisar para montar a fórimula $f'(x)=g'(h(x)) \times h'(x)$
+#### Passo 1 — Monte a tabela de 4 posições
 
-|Elementos|Valores|
+Vamos preencher, ao longo do roteiro, os valores necessários para montar a fórmula:
+
+$$
+f'(x)=g'(h(x)) \times h'(x)
+$$
+
+| Elementos | Valores |
 |---|---|
-Função da interna |
-Função da externa  |
-Derivada da interna |
-Derivada da externa |
+| Função da interna     $\rightarrow h(x)$: | |
+| Função da externa     $\rightarrow g(x)$:| |
+| Derivada da interna   $\rightarrow h'(x)$:| |
+| Derivada da externa   $\rightarrow g'(x)$: | |
 
-2. 🔵 Identifique a função externa:  
+---
+
+#### Passo 2 — 🔵 Identifique a função externa
+
 A parte de fora é:
 
 $$
 (\quad)^3
 $$
 
-Logo: 
 $$
-\boxed{\text{Função externa = $(\quad)^3$}}
+\boxed{\text{Função externa = }(\quad)^3}
 $$
 
- Ou seja, estamos elevando alguma coisa ao cubo.
+Ou seja, estamos elevando alguma coisa ao cubo.
 
-3. 🟡 Identifique a função interna:  
+---
+
+#### Passo 3 — 🟡 Identifique a função interna
+
 A parte de dentro é:
 
 $$
 2x+1
 $$
 
-Ela está dentro da função externa. Logo: 
+Ela está dentro da função externa. Logo:
 
 $$
-\boxed{\text{Função interna = $2x+1$}}
+\boxed{\text{Função interna = }2x+1}
 $$
 
-4. ✏️ Derive a função externa mantendo a interna  
+---
+
+#### Passo 4 — ✏️ Derive a função externa mantendo a interna
+
 A derivada de algo elevado ao cubo é:
 
 $$
 3(\text{algo})^2
 $$
 
-Como "algo" é **2x+1**, matemos ele no lugar:
+Como "algo" é **2x+1**, e esta é a função interna, manteremos ela no lugar:
 
 $$
 3(2x+1)^2
@@ -161,96 +175,84 @@ $$
 ⚠️ Não derivamos a parte de dentro ainda.
 
 $$
-\boxed{\text{Derivada externa = $(\quad)^3$}}
+\boxed{\text{Derivada externa = }3(\quad)^2}
 $$
 
-5. 🟡 Deriva a interna
+---
+
+#### Passo 5 — 🟡 Derive a interna
 
 $$
 2x+1
 $$
 
-Agora derivamos cada parte:
+Pela regra da **Soma**, poderemos derivar cada parte separadamente:
 
 $$
 (2x+1)' = (2x)' + (1)'
 $$
 
-Sabemos que:
-- 🔵 A derivada de `x` é `1`, então:
+- 🔵 A derivada de `2x` é `2` (já que a derivada de `x` é `1`, então $2\times1=2$).
+- 🟡 O `1` é uma constante — não muda quando `x` muda. Por isso:
 
 $$
-\boxed{\text{Derivada interna = 2}}
-$$
-
-
-6. ✖️ Multiplique pela derivada da função interna
-Agora derivamos a parte de dentro.
-
-Com o quadro pronto temos:
-
-|Elementos|Valores|
-|---|---|
-Função da interna | 
-Função da externa  |
-Derivada da interna |
-Derivada da externa |
-
-$$
-(2x)' = 2\cdot1 = \boxed{2}
-$$
-
-- 🟡 O `1` é uma constante, então ele não muda quando `x` muda. Por isso:
-
-$$
-(1)'=0
+(1)' = 0
 $$
 
 Portanto:
 
 $$
-(2x+1) = 2 \times 1 + 0
+(2x+1)' = 2 + 0 = \boxed{2}
 $$
 
+💡 **Importante**: não é o `2x+1` inteiro que é a constante. Apenas o `+1` é a constante.
+
+- `x` muda → sua derivada é `1`;
+- `1` não muda → sua derivada é `0`.
+
 $$
-\boxed{2}
+\boxed{\text{Derivada interna = }2}
 $$
 
-💡 **Importante**: Não é o `2x+1` inteiro que é a constante. Apenas o `+1` é a constante.
+---
 
-- `x` muda $\rightarrow$ sua derivada é `1`;  
-- `1` não muda $\rightarrow$ sua derivada é `0`.
+#### Passo 6 — ✖️ Multiplique pela derivada da função interna
 
-🎉 **Pronto!**
+🎉 **Pronto!** Com o quadro completo, temos:
+
+| Elementos | Valores |
+|---|---|
+| Função da interna     $\rightarrow h(x)$: | $2x+1$ |
+| Função da externa     $\rightarrow g(x)$:| $(\text{algo})^3$ |
+| Derivada da interna   $\rightarrow h'(x)$:| $2$ |
+| Derivada da externa   $\rightarrow g'(x)$: | $3(\text{algo})^2$ |
 
 A **Regra da Cadeia** nos permitiu descobrir como a mudança da entrada `x` passa pela função interna e chega até o resultado final!
 
+---
+
 ### 🧩 O que aconteceu?
 
-Podemos enxergar a função como uma pequena máquina:
+Podemos enxergar a função como uma pequena máquina, onde `x` passa por duas etapas até chegar ao resultado final:
 
 $$
-x
-\rightarrow
-\boxed{2x+1}
-\rightarrow
-\bold{(\ )^3}
-\rightarrow
-f(x)
+x \;\rightarrow\; \boxed{2x+1} \;\rightarrow\; (\ )^3 \;\rightarrow\; f(x)
 $$
 
-A mudança precisa passar por 2 etapas, por isso fazemos:
+Primeiro, `x` entra na função interna ($2x+1$); depois, o resultado dessa etapa é elevado ao cubo pela função externa.
 
-- 🟦 Derivada da parte de fora;
-- 🔵 Derivada da parte de dentro.
+Como a mudança precisa passar por essas 2 etapas, a derivada também precisa "passar" por cada uma delas — por isso calculamos:
 
-Ou de forma bem curta:
+- 🟦 A derivada da parte de fora (função externa);
+- 🔵 A derivada da parte de dentro (função interna);
+
+E multiplicamos as duas. Ou, de forma bem curta:
 
 $$
-\boxed{\text{Regra da Cadeia = Derivada de fora $\times$ Derivada de Dentro}}
+\boxed{\text{Regra da Cadeia = Derivada de fora} \times \text{Derivada de dentro}}
 $$
 
-📝 Resumo
+# 📝 Resumo
 
 Usamos a **Regra da Cadeia** quando temos uma função dentro de outra função.
 
