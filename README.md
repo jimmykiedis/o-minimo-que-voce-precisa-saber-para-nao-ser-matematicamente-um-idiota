@@ -1,10 +1,19 @@
 # 📘 Calculus I: The Bare Minimum You Need to Know to Not Be Mathematically an Idiot
 
-![GitHub repo size](https://img.shields.io/badge/size-study%20in%20progress-blue)
-![GitHub last commit](https://img.shields.io/badge/last%20commit-2026--09--16-green)
-![Static Badge](https://img.shields.io/badge/topic-Calculus%20I-orange)
-![Static Badge](https://img.shields.io/badge/format-Markdown-0A7EA4)
-![Static Badge](https://img.shields.io/badge/level-Basic%20to%20intermediate-purple)
+<p align="center">
+  <a href="https://jimmykiedis.github.io/o-minimo-que-voce-precisa-saber-para-nao-ser-matematicamente-um-idiota/">
+    <img src="https://img.shields.io/badge/🧮%20Live%20Demo-FF4B4B?style=for-the-badge" alt="Live Demo">
+  </a>
+  <br>
+  <em>Click the button to access the live demo.</em>
+</p>
+
+![Calculus I](https://img.shields.io/badge/Math-Calculus%20I-8A2BE2)
+![Study Guide](https://img.shields.io/badge/Content-Study%20Guide-28A745)
+![Markdown](https://img.shields.io/badge/Format-Markdown-0A7EA4)
+![Status](https://img.shields.io/badge/Status-In%20progress-yellow)
+![License](https://img.shields.io/badge/License-MIT-blue)
+![Language](https://img.shields.io/badge/Language-PT%20%2F%20EN-00599C)
 
 > **A study guide to understand the math behind calculus — starting from the basics and progressing through limits, derivatives, and integrals.**
 
