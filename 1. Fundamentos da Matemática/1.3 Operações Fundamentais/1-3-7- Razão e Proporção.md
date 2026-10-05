@@ -1,64 +1,308 @@
 # 1.3.8. Razão e Proporção
 
+# ⚖️ Introdução
 
- <span style="font-size: 18.0;">
-     **🎯 Objetivo do tópico**
+**Razão** é uma forma de **comparar duas grandezas** usando uma divisão.
 
- </span>Aprender a comparar grandezas e reconhecer quando duas grandezas mantêm uma relação proporcional. Esse conteúdo é uma base para porcentagens, regra de três, escalas, conversões, funções lineares e muitos problemas do cotidiano.
+**Proporção** é a igualdade entre duas razões. Em outras palavras, é dizer que duas comparações diferentes **mantêm a mesma relação**.
 
- <span style="font-size: 18.0;">
-     **🧩 O que é uma razão?**
+Essas ideias aparecem em todo lugar: 
+- mapas 🗺️, 
+- escalas 📝, 
+- receitas 🍰, 
+- conversão de unidades 🧮, 
+- velocidades 🚀 
+- e, mais adiante, em Cálculo, quando falamos de taxas — quanto uma grandeza muda em relação a outra.
 
- </span>Razão é uma comparação entre duas quantidades por meio de uma divisão. Pode ser escrita como a/b ou a:b, desde que b ≠ 0. Em uma razão, a é o antecedente e b é o consequente.
-**Exemplo:** uma turma tem 12 mulheres e 8 homens. A razão entre mulheres e homens é 12/8 = 3/2. A ordem importa: a razão entre homens e mulheres é 8/12 = 2/3.
+A ideia principal é simples:
 
- <span style="font-size: 18.0;">
-     **⚖️ O que é uma proporção?**
+> 💡 Comparar não é subtrair. É dividir.
 
- </span>Proporção é uma igualdade entre duas razões: a/b = c/d, com b e d diferentes de zero. A propriedade fundamental é a multiplicação cruzada: a · d = b · c.
-**Exemplo:** 3/5 = 12/20, pois 3 · 20 = 5 · 12 = 60.
+E aqui mora um erro bem comum.
 
- <span style="font-size: 18.0;">
-     **📚 Conteúdos que devemos desenvolver**
+Imagine uma receita que usa 2 ovos para 4 xícaras de farinha. Se quisermos dobrar a receita, não podemos simplesmente aumentar 2 de cada lado e chegar a 4 ovos para 6 xícaras.
 
- </span>* Simplificar razões dividindo os termos pelo mesmo fator.
-* Encontrar razões equivalentes e verificar se duas razões formam uma proporção.
-* Resolver proporções usando a multiplicação cruzada.
-* Interpretar unidades e manter a mesma unidade antes de comparar grandezas.
-* Entender taxa, que é uma razão entre grandezas com unidades diferentes, como km/h ou R$/kg.
-* Reconhecer proporcionalidade direta: quando uma grandeza aumenta na mesma razão que a outra.
-* Reconhecer proporcionalidade inversa: quando uma aumenta enquanto a outra diminui, mantendo o produto constante.
-* Aplicar proporções em escalas, receitas, mapas, velocidade, consumo e conversões.
+A quantidade de ovos foi multiplicada por 2. Portanto, a farinha também precisa ser multiplicada por 2:
 
- <span style="font-size: 18.0;">
-     **✍️ Exemplos essenciais**
+$$
+2 \times 2 = 4 \text{ ovos}
+$$
 
- </span>**1. Simplificação:** 18/24 = 3/4, dividindo numerador e denominador por 6.
-**2. Incógnita em uma proporção:** x/6 = 5/3. Pela multiplicação cruzada, 3x = 30, então x = 10.
-**3. Proporcionalidade direta:** se 2 cadernos custam R$ 18, então 5 cadernos custam R$ 45, mantendo o preço unitário de R$ 9.
-**4. Proporcionalidade inversa:** se 4 pessoas fazem um trabalho em 6 dias, mantendo o mesmo ritmo, 8 pessoas fariam em 3 dias: pessoas · dias = 24.
-**5. Escala:** em uma escala 1:100.000, 1 cm no mapa representa 100.000 cm na realidade, ou 1 km.
+$$
+4 \times 2 = 8 \text{ xícaras de farinha}
+$$
 
- <span style="font-size: 18.0;">
-     **🔍 Como resolver um problema**
+A proporção continua a mesma.
 
- </span>1. Identificar quais grandezas estão sendo comparadas.
-2. Organizar os valores na mesma ordem.
-3. Converter as unidades, se necessário.
-4. Decidir se a relação é direta ou inversa.
-5. Montar a proporção, resolver e verificar se o resultado faz sentido.
+🧠 Manter uma proporção significa manter a mesma relação, não a mesma diferença.
 
- <span style="font-size: 18.0;">
-     **⚠️ Erros que devemos prevenir**
+E existe ainda um segundo caso importante.
 
- </span>Não inverter a ordem de uma razão no meio do problema; não comparar metros com centímetros sem conversão; não usar regra de três direta quando a relação é inversa; não esquecer que o denominador não pode ser zero; e sempre conferir as unidades e a ordem de grandeza do resultado.
+Nem sempre, quando uma grandeza aumenta, a outra também aumenta. Algumas relações são inversas: quando uma dobra, a outra cai pela metade.
 
- <span style="font-size: 18.0;">
-     **🔗 Relação com os próximos capítulos**
+Saber reconhecer esses dois casos — direto e inverso — é o coração deste tópico.
 
- </span>Razões e proporções dão suporte ao estudo de porcentagem, funções e equações. A regra de três é uma aplicação prática de proporções, mas devemos priorizar a compreensão da relação entre as grandezas em vez de decorar um procedimento.
+# 🧭 Exemplo Lógico
 
- <span style="font-size: 18.0;">
-     **🧾 Resumo para lembrar**
+Depois de decidir a potência dos motores, você e Cálculo-Zero finalmente partem.
 
- </span>Razão é uma comparação por divisão. Proporção é uma igualdade entre razões. Para resolver uma proporção, podemos usar a multiplicação cruzada, mas antes precisamos organizar as grandezas, igualar as unidades e identificar se a relação é direta ou inversa.
+Mas surge um problema: o mapa estelar está desenhado em uma escala pequena, e a nave precisa descobrir qual é a distância real até o próximo planeta. 🪐
+
+No mapa, o planeta aparece a 3 cm da posição da nave.
+
+Parece perto.
+
+Mas há uma informação importante na legenda:
+
+1 cm no mapa representa 400 unidades de distância reais.
+
+Então aqueles 3 cm não são simplesmente "3 cm". Eles representam:
+
+$$
+3 \times 400 = \boxed{1200}
+$$
+
+Ou seja, 1.200 unidades de distância.
+
+A comparação entre o mapa e a realidade mantém sempre a mesma relação:
+
+$$
+\frac{400}{1}
+$$
+
+Isso é uma razão.
+
+Quando usamos essa mesma relação para descobrir uma distância desconhecida, estamos trabalhando com uma proporção.
+
+## 🚀 E a velocidade?
+
+Mais adiante, surge outra situação.
+
+A nave precisa percorrer as mesmas 1.200 unidades, mas você pode escolher entre diferentes velocidades.
+
+Se a velocidade dobrar, o tempo necessário cai pela metade.
+
+Por exemplo:
+
+$$
+480 \to 960
+$$
+
+Enquanto:
+
+$$
+2{,}5 \text{ h} \to 1{,}25 \text{ h}
+$$
+
+Aqui acontece algo diferente:
+
+- 🚀 Mais velocidade → menos tempo
+- 🐌 Menos velocidade → mais tempo
+
+Essa é uma relação inversamente proporcional.
+
+Repare no que a história mostrou:
+
+- 📏 Razão: uma comparação feita por divisão.
+- ⚖️ Proporção: duas razões que possuem o mesmo valor.
+- 📈 Proporção direta: as duas grandezas crescem ou diminuem juntas.
+- 📉 Proporção inversa: uma cresce enquanto a outra diminui.
+
+> 🤖 **Razão pergunta "quanto para cada um?". Proporção pergunta "essa relação continua igual?".**
+
+# 🧮 Exemplo Prático
+
+Vamos colocar os dois momentos da viagem em números.
+
+**Parte 1:** o mapa — relação direta 🗺️  
+Dados:
+
+- 📏 Escala: 1 cm → 400 unidades reais
+- 📍 Distância no mapa: 3 cm
+
+O que é uma razão?
+
+A razão entre duas grandezas $a$ e $b$, com $b \neq 0$, é:
+
+$$
+\text{razão} = \frac{a}{b}
+$$
+
+Ela permite comparar uma grandeza com outra.
+
+Na escala do mapa:
+
+$$
+400\text{ unidades/cm}
+$$
+
+Isso significa que cada 1 cm no mapa representa 400 unidades na realidade.
+
+Montando a proporção
+
+Chamando a distância real de $x$:
+
+$$
+\frac{x}{3}
+$$
+
+Como o mapa mantém a mesma escala, as duas razões precisam ser iguais.
+
+Multiplicando os dois lados por 3:
+
+$$
+x = 400 \times 3
+$$
+
+$$
+\boxed{x = 1200}
+$$
+
+Portanto, o planeta está a:
+
+$$
+\boxed{1200\text{ unidades}}
+$$
+
+da nave.
+
+> 🗺️ **O mapa não ficou maior. Só descobrimos o tamanho real do que ele estava representando.**
+
+**Parte 2:** velocidade e tempo — relação inversa 🚀  
+Agora a distância está fixa:
+
+$$
+d = 1200
+$$
+
+A relação entre distância, velocidade e tempo é:
+
+$$
+t = \frac{d}{v}
+$$
+
+Onde:
+
+- $t$ = tempo;
+- $d$ = distância;
+- $v$ = velocidade.
+
+Como a distância permanece constante, aumentar a velocidade reduz o tempo.
+
+🚀 A 480 unidades/h
+
+$$
+t_1 = \frac{1200}{480}
+$$
+
+$$
+\boxed{t_1 = 2{,}5\text{ horas}}
+$$
+
+🚀 A 960 unidades/h
+
+Agora a velocidade dobrou:
+
+$$
+480 \times 2 = 960
+$$
+
+Então:
+
+$$
+t_2 = \frac{1200}{960}
+$$
+
+$$
+\boxed{t_2 = 1{,}25\text{ hora}}
+$$
+
+A velocidade dobrou e o tempo caiu pela metade.
+
+| Velocidade | Tempo |
+|---|---|
+480 unidades/h | 2,5 h
+960 unidades/h | 1,25 h
+
+Isso confirma a relação inversa.
+
+🔎 **Uma segunda forma de conferir**  
+Em grandezas inversamente proporcionais, o produto permanece constante:
+
+$$
+480 \times 2{,}5 = 1200
+$$
+
+e
+
+$$
+960 \times 1{,}25 = 1200
+$$
+
+Nos dois casos:
+
+$$
+\boxed{v \times t = 1200}
+$$
+
+E 1.200 é justamente a distância da viagem.
+
+> ⚖️ Na proporção inversa, quando um lado sobe, o outro precisa descer para manter o produto.
+
+**Parte 3:** convertendo unidades ⏱️  
+O painel da nave mostra o tempo em horas, mas o alarme de chegada trabalha em minutos.
+
+Sabemos que:
+
+$$
+1\text{ h} = 60\text{ min}
+$$
+
+Se a viagem levou 2,5 horas:
+
+$$
+2{,}5 \times 60 = 150
+$$
+
+Logo:
+
+$$
+\boxed{150\text{ minutos}}
+$$
+
+Também podemos enxergar isso como uma razão de conversão:
+
+$$
+\frac{60\text{ min}}{1\text{ h}}
+$$
+
+Assim:
+
+$$
+150\text{ min}
+$$
+
+Perceba que a unidade hora aparece em cima e embaixo e pode ser simplificada.
+
+> 🧠 Converter unidades é usar uma razão que vale 1, mas troca a unidade no caminho. 😎
+
+# 📝 Resumo
+
+- 📏 Razão = comparação por divisão.
+- ⚖️ Proporção = igualdade entre razões.
+- 📈 Direta = crescem ou diminuem juntas.
+- 📉 Inversa = uma cresce enquanto a outra diminui.
+- 🔢 Na direta, a razão permanece constante.
+- ✖️ Na inversa, o produto permanece constante.
+- 🔄 Conversões usam razões entre unidades.
+- ⚠️ Manter uma proporção significa manter a mesma relação, e não a mesma diferença.
+
+🎯 **Frase para lembrar**
+
+> "Razão compara, proporção mantém a relação. Se os dois crescem juntos, é direta; se um sobe enquanto o outro desce, é inversa." 🚀
+>
+
+
+E, principalmente:
+
+> 🧭 Razão é a régua da comparação. Proporção é garantir que essa régua continue medindo do mesmo jeito.
