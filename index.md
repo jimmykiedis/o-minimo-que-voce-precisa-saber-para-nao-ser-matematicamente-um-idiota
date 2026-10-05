@@ -9,11 +9,11 @@ Uma apostila de matemática que vai dos fundamentos ao cálculo, com explicaçõ
 
 ## Por onde começar
 
-Se você está chegando agora, comece pela [introdução ao cálculo](0.%20Introdu%C3%A7%C3%A3o/0-1-%20O%20que%20%C3%A9%20C%C3%A1lculo-.md) e siga os capítulos na ordem.
+Se você está chegando agora, comece pela [introdução ao cálculo](00. Introdução\0-1- O que é Cálculo.md) e siga os capítulos na ordem.
 
 ## Conteúdo
 
-1. [Introdução](0.%20Introdu%C3%A7%C3%A3o/0-1-%20O%20que%20%C3%A9%20C%C3%A1lculo-.md)
+1. [Introdução](00. Introdução\0-1- O que é Cálculo.md)
 2. [Fundamentos da Matemática](1.%20Fundamentos%20da%20Matem%C3%A1tica/1.1%20Conjuntos%20num%C3%A9ricos/1-1-1-%20Naturais%20%28%E2%84%95%29.md)
 3. [Introdução à Álgebra](2.%20Introdu%C3%A7%C3%A3o%20%C3%A0%20%C3%81lgebra/2.1%20Express%C3%B5es%20Alg%C3%A9bricas/2-1-1-%20Termos,%20coeficientes%20e%20vari%C3%A1veis.md)
 4. [Equações e funções](3.%20Equa%C3%A7%C3%B5es%20e%20fun%C3%A7%C3%B5es/3.1%20Introdu%C3%A7%C3%A3o%20%C3%A0%20equa%C3%A7%C3%A3o%20e%20fun%C3%A7%C3%A3o/3-1-1%20Dom%C3%ADnio%20%28Contradom%C3%ADnio%29%20e%20Imagem.md)
